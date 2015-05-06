@@ -27,5 +27,6 @@ if __name__ == '__main__':
     templates = {}
 
     templates['index.html'] = {'name': 'Sebastian Rakel'}
+    templates['table.html'] = {'table': [[1, 2, 3], [4, 5, 6], [7, 8, 9]]}
 
     create_output(templates)
